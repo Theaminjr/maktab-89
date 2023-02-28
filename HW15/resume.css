@@ -14,8 +14,11 @@ ul{  list-style-type: none;
 #About{color: deeppink;}
 .skills{width: 300px;height: 10px;background-color: pink;}
 #python{width: 240px;height: 10px; background-color: deeppink;}
-#fastapi{width: 180px;height: 10px; background-color: deeppink;}
-
+#fastapi{width: 220px;height: 10px; background-color: deeppink;}
+.social{display: flex;text-align: center;margin-bottom: 50px;margin-top: 50px;}
+i{margin-left: 50px;}
+#job{margin-top: 0px;}
+#name{margin-bottom: 2px;}
 
 
 
