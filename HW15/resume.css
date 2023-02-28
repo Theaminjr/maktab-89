@@ -1,0 +1,21 @@
+body{font-size: 25px;font-family:sans-serif}
+.parent{display: flex;   }
+.container{display: flex;text-align: center; }
+.contained{margin-left: 50px;}
+#left{width: 400px; text-align: center;margin-bottom: 0; padding-top: 80px;font-size: 22px;background-color: #4863A0; height: 910px; color: white;}
+a{color: white;text-decoration:none;}
+#right{width: 1000px;padding: 80px;line-height: 1.5;}
+
+img {border-radius: 50%; width: 300px;}
+ul{  list-style-type: none; 
+    padding: 0; 
+    margin: 0; }
+.info{margin: 20px;}
+#About{color: deeppink;}
+.skills{width: 300px;height: 10px;background-color: pink;}
+#python{width: 240px;height: 10px; background-color: deeppink;}
+#fastapi{width: 180px;height: 10px; background-color: deeppink;}
+
+
+
+
