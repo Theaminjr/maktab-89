@@ -13,9 +13,9 @@ parser = argparse.ArgumentParser(
 )
 
 
-parser.add_argument("-d",help="a directory to search recursively",nargs=1)
-parser.add_argument("-f",help="choose only one file to get size of",nargs=1)
-parser.add_argument("-F",help="choose a file format, should be used by -d",nargs=1)
+parser.add_argument("-d",help="a directory to search recursively",)
+parser.add_argument("-f",help="choose only one file to get size of",)
+parser.add_argument("-F",help="choose a file format, should be used by -d",)
 args = parser.parse_args()
 
 
@@ -36,6 +36,9 @@ def find_names_in_directory(to_check:list,allpaths:list): # recurcive function t
       return allpaths
    else:
       return find_names_in_directory(to_check, allpaths)
+
+
+
 
 
 if args.d and args.F and args.f == None:

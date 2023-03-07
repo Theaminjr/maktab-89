@@ -63,9 +63,7 @@ def register(user:User):
 #Question 7
 @app.post("/sum")
 def sum(intlist:IntList):
-    print("hi")
     total = 0
-    print(intlist)
     
     for i in intlist.nums:
         total += i
